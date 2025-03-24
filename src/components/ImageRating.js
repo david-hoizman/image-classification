@@ -39,7 +39,7 @@ const ImageRating = () => {
 
     try {
       const response = await axios.post('http://34.165.95.161:8000/insert', data);
-      console.log(response.data); // אם תקבל true, אז הנתונים נשמרו בהצלחה
+      console.log(response.data); 
     } catch (error) {
       console.error('Error saving data:', error);
     }
